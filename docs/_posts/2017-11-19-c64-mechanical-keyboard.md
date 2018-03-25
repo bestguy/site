@@ -1,6 +1,7 @@
 ---
 layout: main
 title: C-64 Mechanical Keyboard
+category: keyboard
 ---
 
 # Commodore 64 Mechanical Keyboard
