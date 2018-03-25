@@ -1,3 +1,19 @@
 img {
   max-width: 100%;
 }
+
+aside, section {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+}
+
+aside {
+  left: 0;
+  width: 240px;
+}
+
+section {
+  left: 241px;
+}
