@@ -6,7 +6,7 @@ category: keyboard
 
 # Commodore 64 Mechanical Keyboard
 
-![](images/c64/zPaGSSY.jpg)
+![](/images/c64/zPaGSSY.jpg)
 
 I converted my ortholinear Atomic Keyboard to use Commodore 64 keycaps on Cherry MX switches.  Exactly 64 keys, with a 9U  s p a c e b a r . . .
 

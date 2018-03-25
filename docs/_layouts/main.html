@@ -16,17 +16,20 @@
   <body>
     <aside class="bg-dark text-light">
       <h4 class="bg-primary p-3">
-        <img src="{{ '/logo.svg' | absolute_url }}" />
-        gary thomas
+        <a href="{{ '/' | absolute_url }}">
+          <img src="{{ '/logo.svg' | absolute_url }}" />
+          gary thomas
+        </a>
       </h4>
       <ul class="list-group list-group-flush">
         {% for post in site.posts %}
-          <li calss="list-group-item">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+          <li class="list-group-item">
+            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
       </ul>
     </aside>
+
     <section>
       <div class="container-fluid p-5">
         {{ content }}
