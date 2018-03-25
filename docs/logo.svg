@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1rem"
+    viewBox="-10,-10 220,320"
+  >
+  <style>
+    line, rect, path {
+      stroke: currentColor;
+      stroke-width: 5px;
+      fill: none;
+    }
+  </style>
+  <g>
+    <rect width="200" height="300" />
+    <line x1="0" x2="200" y1="200" y2="200" />
+    <line x1="100" x2="100" y1="200" y2="300" />
+    <line x1="0" x2="100" y1="225" y2="225" />
+    <line x1="0" x2="100" y1="250" y2="250" />
+    <line x1="0" x2="100" y1="275" y2="275" />
+    <path d="M150,200 A50,50 1 0 1 100,250" />
+    <path d="M25,175 A25,25 1 0 1 50,150
+            L150,150
+            A25,25 0 0 1 175,175
+            Z" />
+    <line x1="75" x2="75" y1="150" y2="175" />
+  </g>
+</svg>
