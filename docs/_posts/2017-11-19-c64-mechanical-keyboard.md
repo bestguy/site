@@ -6,11 +6,11 @@ category: keyboard
 
 # Commodore 64 Mechanical Keyboard
 
-![](/images/c64/zPaGSSY.jpg)
+![]({{ '/images/c64/zPaGSSY.jpg' | relative_url }})
 
 I converted my ortholinear Atomic Keyboard to use Commodore 64 keycaps on Cherry MX switches.  Exactly 64 keys, with a 9U  s p a c e b a r . . .
 
-![](images/c64/sEPBj20.jpg)
+![]({{ 'images/c64/sEPBj20.jpg' | relative_url }})
 
 Commodore keys are sculpted, so tried to use the sanest layout with the keys available.  I made a Commodore-themed cable extender.
 
