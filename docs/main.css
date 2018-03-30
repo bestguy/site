@@ -10,8 +10,7 @@ aside, section {
   position: fixed;
   top: 0;
   bottom: 0;
-  overflow-x: auto;
-  overflow-y: scroll;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
 
