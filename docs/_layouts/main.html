@@ -37,8 +37,9 @@
 
     <section class="px-5">
       <div class="container-fluid p-5">
-        {% for category in page.categories %}<span class="badge badge-info">{{category}}</span>{% endfor %}
-        <hr />
+        {% for category in page.categories %}
+          <span class="badge badge-info text-uppercase">{{category}}</span>
+        {% endfor %}
         {{ content }}
       </div>
     </section>
