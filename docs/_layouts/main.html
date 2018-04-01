@@ -40,6 +40,9 @@
         {% for category in page.categories %}
           <span class="badge badge-info text-uppercase">{{category}}</span>
         {% endfor %}
+        <h6 class="text-secondary mb-0 mt-3">
+          {{ page.date | date: "%-d %B %Y"}}
+        </h6>
         {{ content }}
       </div>
     </section>
