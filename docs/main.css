@@ -28,12 +28,5 @@ section {
 }
 
 section img {
-  margin-right: 1.5rem;
-  max-width: 50%;
-}
-
-section p {
-  align-items: start;
-  display: flex;
-  margin-bottom: 2rem;
+  margin: 1.5rem 0;
 }
