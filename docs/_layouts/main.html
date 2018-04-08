@@ -35,12 +35,11 @@
       </ul>
     </aside>
 
-    <button id="menu" class="btn btn-outline-danger btn-sm border-0">
-      <i class="fa fa-bars fa-2x"></i>
-    </button>
-
     <section class="px-5">
-      <div class="container-fluid p-5">
+      <button id="menu" class="btn btn-outline-warning btn-sm border-0">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <div class="container-fluid py-5">
         {% for category in page.categories %}
           <span class="badge badge-info text-uppercase">{{category}}</span>
         {% endfor %}
