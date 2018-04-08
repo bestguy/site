@@ -34,6 +34,7 @@ section img {
 }
 
 #menu {
+  display: none;
   position: absolute;
   top: .5rem;
   left: .5rem;
@@ -41,6 +42,9 @@ section img {
 }
 
 @media (max-width: 768px) {
+  #menu {
+    display: inline;
+  }
   #sidebar {
     left: -280px;
   }
