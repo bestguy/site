@@ -10,7 +10,7 @@ img {
   max-width: 100%;
 }
 
-aside, section {
+#sidebar, section {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -18,9 +18,11 @@ aside, section {
   -webkit-overflow-scrolling: touch;
 }
 
-aside {
+#sidebar {
   left: 0;
+  transition: left 300ms ease;
   width: 280px;
+  z-index: 200;
 }
 
 section {
@@ -29,4 +31,26 @@ section {
 
 section img {
   margin: 1.5rem 0;
+}
+
+#menu {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    left: -280px;
+  }
+  section {
+    left: 0;
+  }
+  .open #sidebar {
+    left: -280px;
+  }
+  .open section {
+    left: 0;
+  }
 }

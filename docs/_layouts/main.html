@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{ '/main.css' | absolute_url }}" />
     </head>
   <body>
-    <aside class="bg-dark text-light">
+    <aside id="sidebar" class="bg-dark text-light">
       <h4 class="bg-primary p-3">
         <a href="{{ '/' | absolute_url }}" class="text-light d-flex align-items-end">
           <img src="{{ '/logo.svg' | absolute_url }}" width="32px" height="48px" class="mr-2" />
@@ -35,6 +35,10 @@
       </ul>
     </aside>
 
+    <button id="menu" class="btn btn-outline-danger btn-sm border-0">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
     <section class="px-5">
       <div class="container-fluid p-5">
         {% for category in page.categories %}
@@ -47,4 +51,12 @@
       </div>
     </section>
   </body>
+  <script>
+    const menu = document.getElementById('menu');
+
+    menu.addEventListener('click', (e) => {
+      e.preventDefault();
+      document.body.classList.toggle('open');
+    });
+  </script>
 </html>
