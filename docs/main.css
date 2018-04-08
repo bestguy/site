@@ -48,9 +48,6 @@ section img {
     left: 0;
   }
   .open #sidebar {
-    left: -280px;
-  }
-  .open section {
-    left: 0;
+    left: 0px;
   }
 }
