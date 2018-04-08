@@ -35,7 +35,7 @@
       </ul>
     </aside>
 
-    <section class="px-5">
+    <section id="content" class="p-2">
       <button id="menu" class="btn btn-outline-warning btn-sm border-0">
         <i class="fa fa-bars fa-2x"></i>
       </button>
@@ -52,10 +52,15 @@
   </body>
   <script>
     const menu = document.getElementById('menu');
+    const content = document.getElementById('content');
 
     menu.addEventListener('click', (e) => {
       e.preventDefault();
       document.body.classList.toggle('open');
+    });
+    content.addEventListener('click', (e) => {
+      e.preventDefault();
+      document.body.classList.remove('open');
     });
   </script>
 </html>
