@@ -33,6 +33,10 @@ section img {
   margin: 1.5rem 0;
 }
 
+#backdrop {
+  display: none;
+}
+
 #menu {
   display: none;
   position: absolute;
@@ -50,6 +54,9 @@ section img {
   }
   section {
     left: 0;
+  }
+  .open #backdrop {
+    display: block;
   }
   .open #sidebar {
     left: 0px;

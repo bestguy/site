@@ -50,7 +50,8 @@
         {{ content }}
       </div>
     </section>
-    <div id="backdrop" class="modal-backdrop fade"></div>
+
+    <div id="backdrop" class="modal-backdrop"></div>
   </body>
   <script>
     const menu = document.getElementById('menu');
@@ -59,12 +60,10 @@
     menu.addEventListener('click', (e) => {
       e.preventDefault();
       document.body.classList.toggle('open');
-      backdrop.classList.toggle('show');
     });
     backdrop.addEventListener('click', (e) => {
       e.preventDefault();
       document.body.classList.remove('open');
-      backdrop.classList.remove('show');
     });
   </script>
 </html>
